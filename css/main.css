@@ -29,7 +29,7 @@
     color: var(--secondary-text-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 26px;
     line-height: 1.18;
     text-decoration: none;
 }
@@ -317,9 +317,18 @@ ul {
 .footer {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    
+    margin-left: auto;
+
 
     font-family: Roboto, sans-serif;
     background-color: #2F303A;
+}
+
+.address-list {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .social-net footer {
@@ -327,10 +336,12 @@ ul {
     flex-wrap: wrap;
 }
 
-.offer {
+.join-container {
     display: flex;
     flex-wrap: wrap;
+}
 
+.offer {
     color: var(--secondary-text-color);
 }
 
@@ -344,11 +355,14 @@ ul {
 }
 
 .location,
-.site-contactf .link {
+.location-list .link {
     font-size: 14px;
     line-height: 1.71;
 }
 
+.location-item {
+    font-style: normal;
+}
 
 
 /*Стилизация страницы Портфолио*/
@@ -432,6 +446,11 @@ ul {
 }*/
 
 .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    margin-left: auto;
     font-family: Roboto, sans-serif;
     background-color: #2F303A;
 }
@@ -444,13 +463,28 @@ ul {
     color: var(--secondary-text-color);
 }
 
-.site-contactf .link {
+.location-list .link {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none
 }
 
 .location,
-.site-contactf .link {
+.location-list .link {
     font-size: 14px;
     line-height: 1.71;
+}
+
+.address-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-net footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.join-container {
+    display: flex;
+    flex-wrap: wrap;
 }
