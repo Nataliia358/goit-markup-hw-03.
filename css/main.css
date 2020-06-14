@@ -6,6 +6,10 @@
 }
 
  /* logo */
+
+.logo {
+    width: 153px;
+ }
  
 .web {
     color: var(--accent-color);
@@ -329,6 +333,11 @@ ul {
 .address-list {
     display: flex;
     flex-wrap: wrap;
+    margin-right: 69px;
+}
+
+.location-list {
+
 }
 
 .social-net footer {
@@ -339,6 +348,7 @@ ul {
 .join-container {
     display: flex;
     flex-wrap: wrap;
+    margin-right: 94px;
 }
 
 .offer {
@@ -349,9 +359,13 @@ ul {
     color: var(--secondary-text-color);
 }
 
-.site-contactf .link {
+.location-item .link {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none
+}
+
+.location-item {
+    font-style: normal;
 }
 
 .location,
@@ -360,9 +374,6 @@ ul {
     line-height: 1.71;
 }
 
-.location-item {
-    font-style: normal;
-}
 
 
 /*Стилизация страницы Портфолио*/
